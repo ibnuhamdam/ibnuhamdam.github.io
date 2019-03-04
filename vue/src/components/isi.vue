@@ -44,9 +44,6 @@ Vue.component('isi',{
             <!-- END JUMBOTRON EDUCATION -->
 
             <!-- JUMBOTRON PORTOFOLIO -->
-            <div class="jumbotron jumbotron-fluid text-white">
-
-            </div>
             <!-- END JUMBOTRON PORTOFOLIO -->
             `,
 		data(){
