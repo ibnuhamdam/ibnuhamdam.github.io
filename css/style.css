@@ -8221,7 +8221,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #b1b493;
+        background: #3f9eeb;
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8272,7 +8272,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
     background: transparent;
     background: none;
-    color: #b1b493; }
+    color: #3f9eeb; }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -8346,7 +8346,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #b1b493 !important; }
+        color: #3f9eeb !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8536,7 +8536,7 @@ h1, h2, h3, h4, h5,
           font-size: 14px;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #93b4a0; }
+          color: #3f9eeb; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
           z-index: 1; }
@@ -8547,7 +8547,7 @@ h1, h2, h3, h4, h5,
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
-            color: #b1b493; }
+            color: #639ac7; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -8766,7 +8766,7 @@ h1, h2, h3, h4, h5,
   .btn.btn-white {
     background: #fff !important;
     border: 1px solid #fff !important;
-    color: #b1b493 !important; }
+    color: #639ac7 !important; }
     .btn.btn-white:hover {
       border: 1px solid #000000;
       background: #fff !important;
@@ -8804,7 +8804,7 @@ h1, h2, h3, h4, h5,
     .ftco-about ul.about-info li span {
       width: calc(100% - 130px);
       font-weight: 600;
-      color: #b1b493; }
+      color: #639ac7; }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #000000;
@@ -8825,7 +8825,7 @@ h1, h2, h3, h4, h5,
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      background: #b1b493; }
+      background: #3f9eeb; }
       .ftco-about .my-interest .interest-wrap .icon span {
         color: #000000;
         font-size: 18px; }
@@ -8955,7 +8955,7 @@ h1, h2, h3, h4, h5,
   left: 0; }
 
 .ftco-hireme {
-  background: #b1b493;
+  background: #639ac7;
   padding: 0;
   color: rgba(255, 255, 255, 0.9); }
   .ftco-hireme h2 {
@@ -9272,7 +9272,7 @@ textarea.form-control {
   margin-bottom: 5px;
   text-transform: uppercase;
   color: black;
-  color: #93b4a4;
+  color: #639ac7;
   letter-spacing: 3px; }
 
 .heading-section h2 {
@@ -9345,7 +9345,7 @@ textarea.form-control {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #b1b493;
+    background: #3f9deb;
     position: relative; }
     .ftco-counter .icon span {
       font-size: 40px;
@@ -9367,7 +9367,7 @@ textarea.form-control {
     .ftco-counter .text span {
       font-weight: 600;
       font-size: 15px;
-      color: #b1b493;
+      color: #3f9deb;
       text-transform: uppercase; }
   @media (max-width: 767.98px) {
     .ftco-counter .counter-wrap {
@@ -9459,7 +9459,7 @@ textarea.form-control {
     border-radius: 2px;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 2px solid #b1b493; }
+    border: 2px solid #639ac7; }
     .contact-section .contact-form .form-control::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: rgba(0, 0, 0, 0.5) !important; }
@@ -9490,12 +9490,12 @@ textarea.form-control {
       font-weight: 500;
       color: #000000; }
     .dbox p a {
-      color: #b1b493; }
+      color: #639ac7; }
   .dbox .icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #b1b493;
+    background: #3f9eeb;
     margin: 0 auto;
     margin-bottom: 20px; }
     .dbox .icon span {
