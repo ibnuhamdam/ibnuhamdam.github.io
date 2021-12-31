@@ -388,6 +388,10 @@
   font-weight: 500;
 }
 
+.project .slider .btn-ui {
+  background-color: #415efa !important;
+}
+
 .project .slider .card .title {
   font-family: 'Poppins';
   font-weight: 700;
@@ -400,6 +404,15 @@
   font-weight: 400;
   font-size: 14px;
   color: #9d9999;
+}
+
+.project .slider .carousel-indicators {
+  position: relative;
+  margin-top: 30px;
+}
+
+.project .slider .carousel-indicators [data-bs-target] {
+  background-color: #074d67;
 }
 
 .project .slider .card .tag-item {
@@ -451,6 +464,10 @@
   .project .slider .btn-kategori {
     font-size: 8px;
     padding: 2px 11px;
+  }
+
+  .project .slider .btn-ui {
+    background: #fac841 !important;
   }
 
   .project .slider .card .tag-item {
