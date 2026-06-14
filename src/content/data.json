@@ -6,7 +6,7 @@
       "description": "The crypto market moves invisibly. I built an engine that tracks massive order flows on Hyperliquid in real-time, helping retail traders see exactly how whales position themselves before the market reacts.",
       "tags": ["AI Data Stream", "Web3 Analytics"],
       "metrics": "Processing 1M+ daily transactions",
-      "image": "/project/whale activity.png"
+      "image": "/project/whale-activity.png"
     },
     {
       "id": "trademind-journal",
@@ -22,7 +22,7 @@
       "description": "Public procurement generates vast amounts of transactional data, but actionable insights are often difficult to uncover. I designed an analytics platform that transforms procurement transactions, vendor activity, and purchasing patterns into decision-ready intelligence for monitoring and evaluation.",
       "tags": ["Public Procurement", "Data Analytics"],
       "metrics": "Analyzing 1,000+ procurement packages",
-      "image": "/project/procurement data.png"
+      "image": "/project/procurement-data.png"
     }
   ],
   "currentFocus": [

@@ -36,7 +36,7 @@ export function HeroSection() {
       <FadeIn delay={0.5} className="lg:col-span-5 relative group">
         <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl">
           <Image
-            src="/foto/ibnu-hero.PNG"
+            src="/foto/ibnu-hero.png"
             alt="Ibnu Hamdam"
             fill
             priority
