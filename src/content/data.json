@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "whale-engine",
+      "title": "Crypto Whale Logistics Engine",
+      "description": "The crypto market moves invisibly. I built an engine that tracks massive order flows on Hyperliquid in real-time, helping retail traders see exactly how whales position themselves before the market reacts.",
+      "tags": ["AI Data Stream", "Web3 Analytics"],
+      "metrics": "Processing 1M+ daily transactions",
+      "image": "/project/whale activity.png"
+    },
+    {
+      "id": "trademind-journal",
+      "title": "TradeMind Autonomous Planner",
+      "description": "Trading requires discipline that humans naturally lack. I developed an agent that reviews past trading data, structures a plan using AI, and directly executes the strategy. It removes emotion from the equation entirely.",
+      "tags": ["LLM Agent", "Binance Automation"],
+      "metrics": "Eliminated 80% of manual prep time",
+      "image": "/project/tradeplanner.png"
+    },
+    {
+      "id": "digital-procurement",
+      "title": "Procurement Analytics Engine",
+      "description": "Public procurement generates vast amounts of transactional data, but actionable insights are often difficult to uncover. I designed an analytics platform that transforms procurement transactions, vendor activity, and purchasing patterns into decision-ready intelligence for monitoring and evaluation.",
+      "tags": ["Public Procurement", "Data Analytics"],
+      "metrics": "Analyzing 1,000+ procurement packages",
+      "image": "/project/procurement data.png"
+    }
+  ],
+  "currentFocus": [
+    {
+      "title": "Government Technology",
+      "problem": "Public procurement systems are often slowed down by administrative friction and lack of transparency, creating bottlenecks in essential service delivery.",
+      "whyItMatters": "Efficiency in procurement directly impacts how public funds are utilized and how quickly infrastructure and services reach the citizens who need them most.",
+      "whatIAmBuilding": "I am modernizing procurement workflows by building performance-driven digital interfaces that prioritize data integrity and reduce the cognitive load on public servants.",
+      "impact": "Closing the gap between policy intent and public service delivery."
+    },
+    {
+      "title": "Artificial Intelligence",
+      "problem": "Most AI implementations act as superficial wrappers, failing to address the underlying logic required for high-stakes decision-making.",
+      "whyItMatters": "In environments like finance or public policy, we need autonomous logic that understands strict rules and constraints without human bias or fatigue.",
+      "whatIAmBuilding": "I am developing autonomous agents designed to parse complex datasets and execute rule-based strategies that remain consistent under pressure.",
+      "impact": "Moving the human role from manual execution to high-level system strategy."
+    },
+    {
+      "title": "Data Intelligence",
+      "problem": "Organizations generate massive transactional data but often lack the tools to convert those records into actionable patterns.",
+      "whyItMatters": "Without decision-ready intelligence, monitoring and evaluation become reactive rituals rather than proactive management tools.",
+      "whatIAmBuilding": "I am engineering analytics engines that transform thousands of procurement packages into clear, visual signals for real-time monitoring and evaluation.",
+      "impact": "Turning silent transactional records into actionable foresight."
+    },
+    {
+      "title": "Web3 Research",
+      "problem": "Digital markets are often opaque, with massive movements occurring behind layers of abstraction that retail participants cannot see.",
+      "whyItMatters": "Verifiable, immutable data is the only foundation for trust in a global digital economy. Transparency shouldn't be a luxury.",
+      "whatIAmBuilding": "I am building pipelines that track on-chain order flows and whale logistics to map out Market Mechanics and identify hidden liquidity patterns.",
+      "impact": "Democratizing access to high-fidelity market data."
+    }
+  ]
+}

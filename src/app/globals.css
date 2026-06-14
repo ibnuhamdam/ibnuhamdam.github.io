@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --color-canvas: #0a0a0a;
+  --color-surface: #121212;
+  --color-surface-hover: #1a1a1a;
+  --color-border: #232323;
+  --color-ink-primary: #ededed;
+  --color-ink-secondary: #a1a1aa;
+  --color-ink-tertiary: #52525b;
+  --color-accent-primary: #e2e8f0;
+  --color-accent-glow: rgba(255, 255, 255, 0.05);
+  --color-status-success: #10b981;
+  --color-status-web3: #6366f1;
+
+  --color-background: var(--color-canvas);
+  --color-foreground: var(--color-ink-primary);
+
+  --color-card: var(--color-surface);
+  --color-card-foreground: var(--color-ink-primary);
+  --color-primary: var(--color-ink-primary);
+  --color-primary-foreground: var(--color-canvas);
+  --color-secondary: var(--color-surface-hover);
+  --color-secondary-foreground: var(--color-ink-primary);
+  --color-muted: var(--color-surface);
+  --color-muted-foreground: var(--color-ink-secondary);
+  --color-border-default: var(--color-border);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border-default, currentColor);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink-primary);
+    -webkit-font-smoothing: antialiased;
+    cursor: default;
+  }
+  
+  /* Selection styling */
+  ::selection {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
 }
